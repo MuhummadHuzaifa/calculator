@@ -12,8 +12,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, black, grey, black);
-
+background: linear-gradient(45deg, rgb(0, 0, 0), rgb(31, 31, 241), rgb(241, 241, 187));
+color: beige;
 }
 
 .all {
@@ -41,8 +41,8 @@ button {
     width: 70px;
     height: 70px;
     margin: 10px;
-    background: transparent;
-    color: #fff;
+    background: rgba(255, 255, 255, 0.70);
+    color: black;
     font-size: 22px;
     font-weight: 600;
     border: 0;
@@ -53,6 +53,8 @@ button {
     cursor: pointer;
 }
 
+
+
 button:active{
     background: black;
     transform: traslate(2px, 2px);
@@ -61,12 +63,12 @@ button:active{
 
 .opr {
     color: #fbff00;
-    background: #1e1919;
+    background: rgba(0, 0, 0, 0.70);
     font-weight: 700;
 }
 
 #eqbtn {
-    background: orangered;
+    background: rgba(255, 69, 0, 0.90);
     font-weight: 900;
 }
 
